@@ -1,8 +1,27 @@
-Projekt porównujący działanie modeli AI - regresji liniowej i XGBoost na zbiorze danych wypożyczenia rowerów w Seoulu. 
-Modele wytrenowane w Google Collab
+# Przewidywanie popytu na rowery w Seulu
 
-Dataset: Seoul Bike Sharing Demand, UCI Machine Learning Repository
+Projekt realizowany w ramach studiów. 
+Aplikacja przewiduje liczbę wypożyczanych rowerów na podstawie danych pogodowych i czasowych.
 
-License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+## Jak uruchomić projekt
+1. Sklonuj repozytorium.
+2. Stwórz wirtualne środowisko: `python -m venv venv`.
+3. Zainstaluj biblioteki: `pip install -r requirements.txt`.
+4. Uruchom aplikację: `python main.py`.
 
-Source: https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
+## Wykorzystane modele
+W projekcie porównujemy dwa podejścia:
+* **Model Prosty:** Regresja Liniowa.
+* **Model Złożony:** XGBoost.
+
+## Technologie
+* **Backend:** Flask
+* **AI/ML:** Scikit-learn, Pandas, Google Colab (trening)
+* **Frontend:** HTML5, CSS
+
+## Dane
+**Dataset**: Seoul Bike Sharing Demand, UCI Machine Learning Repository
+
+**License**: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+**Source**: https://archive.ics.uci.edu/dataset/560/seoul+bike+sharing+demand
