@@ -7,12 +7,12 @@ from flask import request
 from flask import current_app
 
 # Co zrobić?
-# Żeby strona zapisywała jakoś dane, może przekieruj na inną podstronę, idk
-# 
+# Zrób raport i przygotuj to do wysłania, posprzątaj kod
 
 # Co mogę jeszcze zrobić?
-# 1. Dać obsługę wysłanego pustego arkusza na stronie
-# 2. Godziny tez one hot encoder
+# Dać obsługę wysłanego pustego arkusza na stronie
+# Żeby strona zapisywała jakoś dane, może przekieruj na inną podstronę, idk
+# Godziny tez one hot encoder
 
 
 app = Flask(__name__)
@@ -89,7 +89,7 @@ def main():
              wynik_liniowy=0
         if wynik_xgb<0:
              wynik_xgb=0
-             
+
         wynik = f"Wynik modelu liniowego: {int(wynik_liniowy)} \n Wynik modelu XGBoost: {int(wynik_xgb)}"
 
         # pomoc = f"Wynik: {wynik} \n miesiac: {miesiac}, dzien: {dzien}, godzina: {godzina}, temp: {temperatura}, temp_r: {temperatura_rosy}, wilgo: {wilgotnosc}, wiatr: {wiatr}, przekrzystosc: {przejrzystosc}, slonce: {slonce}, deszcz: {deszcz}, snieg: {snieg}, swieto: {swieto}, praca: {praca}, pora roku: {pora}"
