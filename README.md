@@ -1,7 +1,7 @@
 # Przewidywanie popytu na rowery w Seulu
 
-Projekt realizowany w ramach studiów. 
-Aplikacja przewiduje liczbę wypożyczanych rowerów na podstawie danych pogodowych i czasowych.
+Projekt realizowany w ramach kierunku Informatyka i Ekonometria na SGGW. 
+Aplikacja przewiduje liczbę wypożyczanych rowerów na podstawie danych pogodowych i czasowych. Umieszczona jest na prostej stronie w HTML.
 
 ## Jak uruchomić projekt
 1. Sklonuj repozytorium.
